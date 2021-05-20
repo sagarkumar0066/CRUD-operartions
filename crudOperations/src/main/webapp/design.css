@@ -1,0 +1,58 @@
+
+@import "compass/css3";
+
+#emp {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#emp td, #emp th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#emp tr:nth-child(even){background-color: #f2f2f2;}
+#emp tr:hover {background-color: #ddd;}
+
+#emp th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+button 
+{
+	color:white;
+    border:none;
+    margin: 10px 0px 0px 25px; 
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+button:hover 
+{
+   opacity:1;
+}
+
+.updatebtn 
+{
+  padding: 14px 20px;
+  background-color: #33A5FF;
+}
+.deletebtn 
+{
+  padding: 14px 20px;
+  background-color: #33A5FF;
+}
+.insertbtn 
+{
+  padding: 14px 20px;
+  background-color: #33A5FF;
+}
+
+.updatebtn, .deletebtn, .insertbtn
+{
+  float: left;
+  width: 30%;
+}
